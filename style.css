@@ -1,0 +1,45 @@
+html,body {
+	padding:0;
+	margin:0;
+	height:100%
+}
+body {
+	background:#303030;
+	color:#e6e1dc;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center
+}
+body {
+	font:16px monospace
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+.symbol {
+	color:#6d9cbe
+}
+.string,.string a {
+	color:#a5c261
+}
+.op_sign {
+	color:#cc7833
+}
+.constant {
+	color:#6d9cbe
+}
+code {
+	font-size:1.4em
+}
